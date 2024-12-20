@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(222, 244, 255);
+    background: url(https://businessofanimation.com/wp-content/uploads/2023/12/cover-background-artist.gif);
+    background-size: cover;
+}
+
+#am {
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid black 2px;
+    border-radius: 20px;
+}
+
+#am:hover {
+    background-color: lightgrey;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pimg {
+    height: 250px;
+    align-self: center;  
+    border: solid white 3px; 
+    margin-right: 40px; 
+}
+
+.at {
+    color: white;
+    font-size: 104%;
+    justify-self: center;
+    margin-top: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.awi {
+    border: solid white 3px;
+}
+
+.awi:hover {
+    border: solid blue 5px;
+    scale: 1.1;
+}
+
+.info {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(49, 0, 95);
+    font-size: 15px;
+    color: white;
+}
+
+.pimg:hover {
+    scale: 1.1;
+    border: solid blue 5px;
+}
+
+.line {
+    margin-bottom: 30px;
+    border: solid white 2px;
+}
+
+.line2 {
+    border: solid white 2px;
+}
+
+.box2 {
+    background-color: rgb(49, 0, 95);
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    align-content: space-around
+}
+
+.box2:hover {
+    scale: 1.05;
+    background-color: darkblue;
+    .info {
+        background-color: darkblue;
+    }
+}
